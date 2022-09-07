@@ -1,0 +1,52 @@
+.takeNoteTwoParent {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+    padding: 15px 15px 15px 15px;
+    width: 40vw;
+    height: 20vh;
+    border-radius: 7px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: space-between;
+    gap: 30px;
+    border : 1px solid black;
+
+}
+
+.columnOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+
+.columnTwo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.columnThree {
+    display: flex;
+    align-items: flex-end;
+    width: 35vw;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3.5rem;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: -20px;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,43 @@
+.takeNoteThreeParent{
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 25vh;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-around;
+    align-items: center;
+}
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 15%;
+    justify-content: space-between;
+    cursor:pointer;    
+    align-items: center;
+}
+
+.description{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: 50%;
+}
+
+.thirdLine {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+    flex-direction: row;
+    cursor:pointer;
+    height: 20%;
+}
+
+.iconsTakeNoteThree{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
